@@ -1,5 +1,4 @@
 #Potree
-/build
 node_modules
 .project
 libs/CesiumUnminified
