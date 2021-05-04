@@ -3,7 +3,6 @@
 node_modules
 .project
 libs/CesiumUnminified
-/resources/icons/index.html
 
 # Windows thumbnail cache files
 Thumbs.db
