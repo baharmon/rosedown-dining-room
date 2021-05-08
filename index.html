@@ -58,8 +58,10 @@
 			viewer.toggleSidebar();
 		});
 
+
 		// Load and add point cloud to scene
-		Potree.loadPointCloud("pointclouds/dining-room/metadata.json", "sigeom.sa", e => {
+		Potree.loadPointCloud("https://drive.google.com/file/d/1oMp3fXtrAP8QYReMfH-VkXxD7aW-p3e4/view?usp=sharing", "sigeom.sa", e => {
+		// Potree.loadPointCloud("pointclouds/dining-room/metadata.json", "sigeom.sa", e => {
 			let scene = viewer.scene;
 			let pointcloud = e.pointcloud;
 
