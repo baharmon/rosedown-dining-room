@@ -60,7 +60,8 @@
 
 
 		// Load and add point cloud to scene
-		Potree.loadPointCloud("pointclouds/dining-room/metadata.json", "baharmon.github.io", e => {
+		// Potree.loadPointCloud("pointclouds/dining-room/metadata.json", "baharmon.github.io", e => {
+		Potree.loadPointCloud("https://lsu.box.com/s/6hn148lyfmr0lqw994kecyzc2w00n906", "baharmon.github.io", e => {
 			let scene = viewer.scene;
 			let pointcloud = e.pointcloud;
 
